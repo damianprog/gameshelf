@@ -1,0 +1,25 @@
+.heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-stretch: var(--font-stretch);
+  font-weight: var(--fw-titles-bold);
+  font-size: 22px;
+}
+
+.headingLogo {
+  display: grid;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  background-color: var(--clr-accent);
+}
+
+.headingLogo::after {
+  content: "";
+  border: 3px solid var(--clr-background);
+  border-radius: 3px;
+  width: 18px;
+  height: 18px;
+  margin: auto;
+}

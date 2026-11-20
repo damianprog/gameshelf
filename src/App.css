@@ -97,5 +97,16 @@
     --fw-labels: 600;
     --fw-titles: 700;
     --fw-titles-bold: 800;
+
+    --font-stretch: 125%;
+  }
+
+  html {
+    font-family: var(--ff-main);
+  }
+
+  body {
+    color: var(--clr-text-main);
+    background-color: var(--clr-background);
   }
 }
