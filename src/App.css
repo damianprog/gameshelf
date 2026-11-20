@@ -92,6 +92,14 @@
     --ff-main: "Archivo", sans-serif;
     --ff-numbers: "JetBrains Mono", monospace;
 
+    --font-size-labels: 0.6875rem;
+    --font-size-small: 0.75rem;
+    --font-size-regular: 0.875rem;
+    --font-size-headings-sm: 1rem;
+    --font-size-headings-lg: 1.375rem;
+    --font-size-headings-xl: 2rem;
+    --font-size-headings-xxl: 2.75rem;
+
     --fw-text: 400;
     --fw-text-bold: 500;
     --fw-labels: 600;
@@ -99,6 +107,28 @@
     --fw-titles-bold: 800;
 
     --font-stretch: 125%;
+
+    --border-radius-sm: 8px;
+    --border-radius-regular: 10px;
+    --border-radius-md: 12px;
+    --border-radius-lg: 14px;
+    --border-radius-xl: 16px;
+    --border-radius-full: 999px;
+
+    --spacing-100: 4px;
+    --spacing-200: 6px;
+    --spacing-300: 8px;
+    --spacing-400: 10px;
+    --spacing-500: 12px;
+    --spacing-600: 14px;
+    --spacing-700: 16px;
+    --spacing-800: 20px;
+    --spacing-900: 24px;
+    --spacing-1000: 28px;
+    --spacing-1100: 32px;
+    --spacing-1200: 40px;
+    --spacing-1300: 56px;
+    --spacing-1400: 64px;
   }
 
   html {
