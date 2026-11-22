@@ -4,14 +4,14 @@
   gap: 12px;
   font-stretch: var(--font-stretch);
   font-weight: var(--fw-titles-bold);
-  font-size: 22px;
+  font-size: var(--font-size-headings-lg);
 }
 
 .headingLogo {
   display: grid;
   width: 34px;
   height: 34px;
-  border-radius: 9px;
+  border-radius: var(--border-radius-regular);
   background-color: var(--clr-accent);
 }
 
