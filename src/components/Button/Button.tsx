@@ -33,6 +33,7 @@ function Button({
   disabled,
   loadingText = "Loading...",
   children,
+  type = "button",
   ...buttonProps
 }: ButtonProps) {
   return (
@@ -40,6 +41,7 @@ function Button({
       className={`${styles.button} ${className ?? ""} ${variants[variant]} ${sizes[size]}`}
       disabled={loading || disabled}
       aria-busy={loading}
+      type={type}
       {...buttonProps}
     >
       {loading ? loadingText : children}
