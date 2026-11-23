@@ -14,7 +14,9 @@ function App() {
         >
           Panel children content
         </Panel>
-        <Button variant="primary">Add Game</Button>
+        <Button variant="primary" size="lg">
+          Add Game
+        </Button>
       </Layout>
     </>
   );

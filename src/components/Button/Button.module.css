@@ -14,8 +14,23 @@
   color: var(--clr-on-accent);
 }
 
+.sm {
+  border-radius: var(--border-radius-sm);
+  padding-inline: var(--spacing-500);
+  padding-block: var(--spacing-200);
+  font-size: var(--font-size-small);
+}
+
 .md {
   border-radius: var(--border-radius-regular);
   padding-inline: var(--spacing-700);
   padding-block: var(--spacing-300);
+  font-size: var(--font-size-regular);
+}
+
+.lg {
+  border-radius: var(--border-radius-md);
+  padding-inline: var(--spacing-800);
+  padding-block: var(--spacing-400);
+  font-size: var(--font-size-headings-sm);
 }
