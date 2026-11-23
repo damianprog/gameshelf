@@ -1,4 +1,5 @@
 import "./App.css";
+import Button from "./components/Button/Button";
 import Layout from "./components/Layout/Layout";
 import Panel from "./components/Panel/Panel";
 
@@ -13,6 +14,7 @@ function App() {
         >
           Panel children content
         </Panel>
+        <Button variant="primary">Add Game</Button>
       </Layout>
     </>
   );
