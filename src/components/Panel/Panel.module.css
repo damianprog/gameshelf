@@ -19,7 +19,7 @@
 
 .headingDescription {
   font-size: var(--font-size-labels);
-  color: var(--clr-text-secondary);
+  color: var(--clr-text-subtle);
 }
 
 .headingLeft {

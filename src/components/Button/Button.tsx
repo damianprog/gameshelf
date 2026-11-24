@@ -38,13 +38,20 @@ function Button({
 }: ButtonProps) {
   return (
     <button
+      {...buttonProps}
       className={`${styles.button} ${className ?? ""} ${variants[variant]} ${sizes[size]}`}
       disabled={loading || disabled}
       aria-busy={loading}
       type={type}
-      {...buttonProps}
     >
-      {loading ? loadingText : children}
+      {loading ? (
+        <>
+          <span className={styles.loadingSpinner} aria-hidden></span>
+          {loadingText}
+        </>
+      ) : (
+        children
+      )}
     </button>
   );
 }

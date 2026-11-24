@@ -85,10 +85,13 @@
     --clr-border-main: #232831;
     --clr-border-secondary: #323845;
     --clr-text-main: #eef0f4;
-    --clr-text-secondary: #9299a6;
+    --clr-text-secondary: #c3c8d2;
+    --clr-text-muted: #9299a6;
+    --clr-text-subtle: #646b78;
     --clr-accent: #ff6a2b;
     --clr-on-accent: #1a0a02;
     --clr-danger: #f0544f;
+    --clr-on-danger: #ff7c77;
 
     --ff-main: "Archivo", sans-serif;
     --ff-numbers: "JetBrains Mono", monospace;
