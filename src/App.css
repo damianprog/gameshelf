@@ -151,8 +151,16 @@
 
 @layer components {
   .statuses {
-    margin-top: 30px;
     display: flex;
     gap: 20px;
+  }
+
+  .container {
+    display: grid;
+    gap: 20px;
+  }
+
+  .addGameButton {
+    justify-self: start;
   }
 }
