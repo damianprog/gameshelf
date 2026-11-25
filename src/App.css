@@ -92,6 +92,10 @@
     --clr-on-accent: #1a0a02;
     --clr-danger: #f0544f;
     --clr-on-danger: #ff7c77;
+    --clr-planned: #7ab0ff;
+    --clr-playing: #b794ff;
+    --clr-finished: #4fd18b;
+    --clr-dropped: #f0697a;
 
     --ff-main: "Archivo", sans-serif;
     --ff-numbers: "JetBrains Mono", monospace;
@@ -142,5 +146,13 @@
   body {
     color: var(--clr-text-main);
     background-color: var(--clr-background);
+  }
+}
+
+@layer components {
+  .statuses {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
   }
 }

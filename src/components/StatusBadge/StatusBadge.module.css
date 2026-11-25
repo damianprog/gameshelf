@@ -1,0 +1,38 @@
+.statusBadge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-300);
+  border-radius: var(--border-radius-full);
+  padding-inline: var(--spacing-400);
+  padding-block: var(--spacing-200);
+  background-color: color-mix(in srgb, currentColor 12%, transparent);
+  border: 1px solid color-mix(in srgb, currentColor 30%, transparent);
+  font-size: var(--font-size-small);
+  font-weight: var(--fw-labels);
+  line-height: 1.1;
+}
+
+.statusBadge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+
+.planned {
+  color: var(--clr-planned);
+}
+
+.playing {
+  color: var(--clr-playing);
+}
+
+.finished {
+  color: var(--clr-finished);
+}
+
+.dropped {
+  color: var(--clr-dropped);
+}
