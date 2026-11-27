@@ -1,0 +1,5 @@
+.gamesCards {
+  display: grid;
+  gap: var(--spacing-700);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}

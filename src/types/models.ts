@@ -1,7 +1,7 @@
 export type Status = "Planned" | "Playing" | "Finished" | "Dropped";
 
 export type Game = {
-  id: number;
+  id: string;
   thumbnail?: string;
   title: string;
   platform: string;
