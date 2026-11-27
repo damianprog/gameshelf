@@ -33,7 +33,7 @@ function GameCard({
         <footer className={styles.footer}>
           <StatusBadge status={status} />
           <span className={styles.rating}>
-            {rating !== undefined ? `${rating}/10` : "-"}
+            {rating !== undefined ? `${rating}/10` : "\u2014"}
           </span>
         </footer>
       </div>

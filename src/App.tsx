@@ -1,5 +1,6 @@
 import "./App.css";
 import Button from "./components/Button/Button";
+import GameCard from "./components/GameCard/GameCard";
 import Layout from "./components/Layout/Layout";
 import Panel from "./components/Panel/Panel";
 import StatusBadge from "./components/StatusBadge/StatusBadge";
@@ -27,7 +28,19 @@ function App() {
               <StatusBadge status="Dropped"></StatusBadge>
             </div>
           </Panel>
-          <Panel title="Card gry"></Panel>
+          <Panel title="Backlog">
+            <div className="backlogGamesCards">
+              <GameCard
+                dateAdded={new Date("2026-11-16")}
+                id={1}
+                platform="PC"
+                status="Playing"
+                title="Elden Ring"
+                rating={9}
+                thumbnail="https://game-sector.s27.cdn-upgates.com/_cache/3/e/3ef99d5312236021e43463ea5640dbd2-el-main.jpeg"
+              />
+            </div>
+          </Panel>
         </div>
       </Layout>
     </>
