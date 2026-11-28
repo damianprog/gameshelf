@@ -1,5 +1,6 @@
 .gameCard {
   display: grid;
+  grid-template-rows: auto 1fr;
   border-radius: var(--border-radius-lg);
   overflow: clip;
   background-color: var(--clr-surface-secondary);
@@ -17,12 +18,14 @@
 
 .details {
   display: grid;
+  grid-template-rows: 1fr auto;
   gap: var(--spacing-400);
   padding: var(--spacing-600);
 }
 
 .heading {
   display: grid;
+  align-content: start;
   gap: var(--spacing-100);
 }
 
